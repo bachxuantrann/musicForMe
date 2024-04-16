@@ -192,6 +192,7 @@ const app = {
                 _this.nextSong();
             }
             audio.play();
+            _this.render();
         };
         // Xu ly repeat khi audio ended
         repeatBtn.onclick = function () {
