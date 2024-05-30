@@ -252,6 +252,7 @@ const app = {
         }
         this.loadCurrentSong();
     },
+    // Quay lai bai hat truoc do
     prevSong: function () {
         this.currentIndex--;
         if (this.currentIndex < 0) {
@@ -259,6 +260,7 @@ const app = {
         }
         this.loadCurrentSong();
     },
+    // Chay random 1 bai hat
     playRandomSong: function () {
         var newIndex;
         do {
