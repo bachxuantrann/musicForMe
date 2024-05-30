@@ -56,16 +56,34 @@ const app = {
             image: "./assets/img/thepartyneverends_image.jpg",
         },
         {
-            name: "Van Doi",
+            name: "Vẫn Đợi",
             singer: "Wxrdie",
             path: "./assets/music/vandoi.mp3",
             image: "./assets/img/vandoi_image.jpg",
         },
         {
-            name: "YoungBoiSiTinh",
+            name: "Young boi si tình",
             singer: "Wxrdie",
             path: "./assets/music/youngboisitinh.mp3",
             image: "./assets/img/younboisitinh_image.jpg",
+        },
+        {
+            name: "Chưa được yêu như thế",
+            singer: "Trang",
+            path: "./assets/music/chuaDuocYeuNhuThe.mp3",
+            image: "./assets/img/chuaDuocYeuNhuThe_image.jpg",
+        },
+        {
+            name: "Thanh Xuân",
+            singer: "Dalab",
+            path: "./assets/music/thanhXuan.mp3",
+            image: "./assets/img/thanhXuan_image.jpg",
+        },
+        {
+            name: "Vùng Ký Ức",
+            singer: "Lâm Bảo Ngọc",
+            path: "./assets/music/vungKyUc.mp3",
+            image: "./assets/img/vungKyUc_image.jpg",
         },
     ],
     render: function () {
@@ -80,9 +98,6 @@ const app = {
                 <div class="body">
                     <h3 class="title">${song.name}</h3>
                     <p class="author">${song.singer}</p>
-                </div>
-                <div class="option">
-                    <i class="fas fa-ellipsis-h"></i>
                 </div>
             </div>
         `;
